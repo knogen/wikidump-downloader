@@ -19,4 +19,4 @@ options:
 
 # my useage 
 
-`make start` 
+`export PATH=$PATH:/home/ider/.local/bin && cd /home/ider/workspace/wikidump-downloader && /usr/bin/make start` 
