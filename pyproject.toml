@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wikidump-downloader"
+version = "0.1.0"
+description = ""
+authors = ["ider <admin@knogen.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+priority = "default"
+
+[tool.poetry.scripts]
+start = "wikidump_downloader:main"
