@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+wikidump_downloader.py
+wikidump_downloader.egg-info/PKG-INFO
+wikidump_downloader.egg-info/SOURCES.txt
+wikidump_downloader.egg-info/dependency_links.txt
+wikidump_downloader.egg-info/entry_points.txt
+wikidump_downloader.egg-info/top_level.txt

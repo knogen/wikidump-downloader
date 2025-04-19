@@ -1,23 +1,23 @@
-[tool.poetry]
+[project]
 name = "wikidump-downloader"
 version = "0.1.0"
 description = ""
-authors = ["ider <admin@knogen.cn>"]
+authors = [
+  { name = "ider", email = "admin@knogen.cn" }
+]
 readme = "README.md"
+requires-python = ">=3.10"
 
-[tool.poetry.dependencies]
-python = "^3.10"
+dependencies = []
 
+[project.scripts]
+start = "wikidump_downloader:main"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
 
-
-[[tool.poetry.source]]
+[[tool.uv.source]]
 name = "aliyun"
 url = "http://mirrors.aliyun.com/pypi/simple"
 priority = "default"
-
-[tool.poetry.scripts]
-start = "wikidump_downloader:main"
